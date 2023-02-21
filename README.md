@@ -9,7 +9,7 @@ No installations necessary.
 
 ## Usage
 Website Screenshot:
-https://github.com/JacobRyanWillis/Developer_short_quiz/blob/main/Assets/websiteScreenshot.png?raw=true
+![image]https://github.com/JacobRyanWillis/Developer_short_quiz/blob/main/Assets/websiteScreenshot.png?raw=true
 
 ## Credits
 
