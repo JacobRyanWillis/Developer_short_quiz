@@ -1,0 +1,218 @@
+* {
+   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    /* 62.5% is equivalent to 10px for browser font-size */
+    font-size: 62.5%;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+
+h1 {
+    font-size: 4rem;
+    color: lightpink;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+
+#introText {
+    font-size: 2rem;
+    margin: 2rem;
+    width: 50%;
+    line-height: 3.5rem;
+    border: dotted white;
+    padding: 2rem;
+    
+}
+
+.introduction {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: rgb(48, 48, 48);
+}
+
+#startButton {
+    font-size: 3.5rem;
+    background-color: purple;
+    border: solid white;
+    background-size: auto;
+    margin: 2rem;
+    padding: .75rem;
+    
+}
+
+/* #startButton:hover {
+    
+} */
+
+
+.timer {
+    display:flex;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.high-score {
+    width:33%;
+}
+
+ #questionContainer {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: rgb(48, 48, 48);
+}
+
+#firstWindow, #secondWindow, #thirdWindow, #fourthWindow, #fifthWindow {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+.btn {
+    display: flex;
+    font-size: 2rem;
+    margin: 3rem;
+    padding: 2rem;
+    background-color: purple;
+    border: solid white;
+}
+
+.btn:hover, #startButton:hover, .viewHighScores:hover, #clearHighScoresBtn:hover {
+    filter: contrast(50%);
+    transition: .5s;
+}
+
+#returnAnswer {
+    font-size: 2rem;
+
+}
+
+#scoreSubmission {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-top: 10rem;
+    padding: 5rem;
+    flex-direction: column;
+    border: dotted white;
+    background-color: rgb(48, 48, 48);
+}
+
+#alldone, #score {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+}
+
+#initials {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+#userInitials {
+    color: black;
+    padding: .5rem;
+    font-size: 2rem;
+}
+
+#submitBtn {
+    display: flex;
+    color: black;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+#viewHighScores {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-top: 10rem;
+    padding: 5rem;
+    background-color:  rgb(48, 48, 48);
+    border: solid white;
+}
+
+#highScoresList {
+    font-size: 2rem;
+    margin: 2rem;
+    padding: 2rem;  
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+ul li {
+    margin: 1rem;
+}
+
+#playAgainBtn {
+    font-size: 3rem;
+    background-color: purple;
+    border: solid white;
+    background-size: auto;
+    padding: .75rem;
+}
+
+#alldone {
+    color: lightpink;
+}
+
+.viewHighScores {
+    font-size: 3rem;
+    margin: 1rem;
+    padding: .5rem;
+    color: white;
+    background-color: purple;
+    border: solid white;
+}
+
+#clearHighScoresBtn {
+    font-size: 3rem;
+    margin: 1rem;
+    padding: .5rem;
+    color: white;
+    background-color: purple;
+    border: solid white;
+}

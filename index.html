@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description = "Developer quiz for full stack students.">
+    <link rel="stylesheet" href="./develop/style.css">
+    <title>Developer Quiz!</title>
+</head>
+
+<body>
+<header>
+    <button class="viewHighScores">View Highscores</button>
+    <button id="clearHighScoresBtn">Clear High Scores</button>
+    <h4 class="timer"></h4>
+</header>
+ <section class="introduction">
+    <h1>Developer Quiz</h1> 
+        <p id= "introText"> Welcome to the developer quiz! Lets see if you know your coding lingo. There will be 5 questions and you'll
+            have 60 seconds total, take your time and be sure to read thoroughly. If you answer incorrectly time will be subtracted from the clock. Try not to google! I know
+            its tempting but if you dont know the answer give it your most educated guess and good luck!
+            Click start quiz when you are ready to begin.
+        </p>
+    <button id="startButton">Start Quiz</button>
+ </section>
+
+ <section id = "questionContainer">
+    <h2 id = "q1"></h2>
+    <div id = "firstWindow">
+        <button class ="btn" id = "a1"></button>
+        <button class ="btn" id = "a2"></button>
+        <button class ="btn" id = "a3"></button>
+    </div>
+    <div id = "secondWindow">
+    <h2 id = "q2"></h2>
+        <button class ="btn" id = "a1"></button>
+        <button class ="btn" id = "a2"></button>
+        <button class ="btn" id = "a3"></button>
+    </div>
+    <div id = "thirdWindow">
+    <h2 id = "q3"></h2>
+        <button class ="btn" id = "a1"></button>
+        <button class ="btn" id = "a2"></button>
+        <button class ="btn" id = "a3"></button>
+    </div>
+    <div id = "fourthWindow">
+    <h2 id = "q4"></h2>
+        <button class ="btn" id = "a1"></button>
+        <button class ="btn" id = "a2"></button>
+        <button class ="btn" id = "a3"></button>
+    </div>
+    <div id = "fifthWindow">
+    <h2 id = "q5"></h2>
+        <button class ="btn" id = "a1"></button>
+        <button class ="btn" id = "a2"></button>
+        <button class ="btn" id = "a3"></button>
+    </div>
+ </section>
+    <div id = "scoreSubmission">
+        <h2 id="alldone">All Done!</h2>
+        <h3 id = "score"></h3>
+        <p id="initials">Enter your Initials: </p>
+        <input type="text" id="userInitials"></input>
+        <input type="button" value="Submit score" id="submitBtn"></input>
+        <div id="errorMessage"></div>
+    </div>
+    <div id = "viewHighScores">
+        <h2 class = "underline"> High Scores </h2>
+        <ul id = "highScoresList">
+        </ul>
+        <button id = "playAgainBtn">Play Again</button>
+    </div>
+ <script src="./develop/script.js"></script>
+</body>
+</html>
