@@ -9,7 +9,7 @@ No installations necessary.
 
 ## Usage
 Website Screenshot:
-![screenshot]Assets/websiteScreenshot.png
+![screenshot]./Assets/websiteScreenshot.png
 
 ## Credits
 
