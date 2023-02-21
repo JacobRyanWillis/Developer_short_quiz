@@ -8,6 +8,7 @@ This website was designed as a junior level development quiz. 5 simple questions
 No installations necessary.
 
 ## Usage
+Webpage: https://jacobryanwillis.github.io/Developer_short_quiz/
 Website Screenshot:
 ![screenshot](./Assets/websiteScreenshot.png)
 
